@@ -250,7 +250,12 @@ function esVocal(letra) {
     letra === "e" ||
     letra === "i" ||
     letra === "o" ||
-    letra === "u"
+    letra === "u" ||
+    letra === "A" ||
+    letra === "E" ||
+    letra === "I" ||
+    letra === "O" ||
+    letra === "U"
   ) {
     return "Es vocal";
   } else if (letra.length !== 1) {
